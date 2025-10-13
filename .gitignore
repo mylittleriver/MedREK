@@ -1,0 +1,16 @@
+data/check_data_duplicate.py
+data/*.json
+data/split_data.py
+data/sub_statis.py
+draw_scatter.py
+*.json
+train_records/*
+!train_records/.gitkeep
+eval_results/
+!eval_results/.gitkeep
+models/
+*.log
+test_load_meditron.py
+!models/.gitkeep
+*.png
+
