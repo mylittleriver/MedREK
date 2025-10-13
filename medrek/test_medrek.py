@@ -15,7 +15,7 @@ def eval_multi_edit(editor, editor_name, eval_data_name = 'ZSRE', data_path = No
         shuffle = True, seed = 0, extra_evaluation_name = None):
     start_time = time.time() 
     data_map = {
-        'medmcqa': ['data/medmcqa/test.json', TestSampleList.medmcqa],
+        'medversa': ['data/medversa/test.json', TestSampleList.medversa],
         'ripe': ['data/evaluation/ripple_effect/ripe_test.json', TestSampleList.ripple_effect],
         'medcf': ['data/evaluation/medcf/test.json', TestSampleList.medcf]
         # 'medcf': ['data/evaluation/medcf/test_single.json', TestSampleList.medcf]
