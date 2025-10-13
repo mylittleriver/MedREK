@@ -3,9 +3,11 @@
 
 Source code for MedREK: Retrieval-Based Editing for Medical LLMs with Key-Aware Prompts.
 
+###Setup
+First enter the `medrek` directory: `cd medrek`
+In `utils/global_attrs.py`, change  `ROOT_PATH` and `MODEL_PATH` to your paths.
 
 ## Train MedREK
-First enter the `medrek` directory: `cd medrek`
 
 Please run:
 ```
