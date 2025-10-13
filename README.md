@@ -18,7 +18,7 @@ Checkpoints will be saved in `train_records/recipe/meditron-7b/train_name/checkp
 You can view training information in `train_records/recipe/meditron-7b/train_name/logs/` through Tensorboard.
 
 ## Evaluate MedREK
-First enter the `medrek` directory: `cd medrek`
+
 Please run:
 ```
 python test_medrek.py -en 'medrek' -mn 'meditron-7b' -et 'batch' -dvc 'cuda:0' -ckpt 'train_records/recipe/meditron-7b/train_name/checkpoints/a_checkpoint' -dn 'medcf' -edn 100
